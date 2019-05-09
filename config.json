@@ -1,0 +1,14 @@
+{
+  "email": {
+    "title": "Email",
+    "type": "string",
+    "default": "",
+    "required": true
+  },
+  "password": {
+    "title": "Password",
+    "type": "string",
+    "default": "",
+    "required": true
+  }
+}
