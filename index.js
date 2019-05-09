@@ -17,7 +17,7 @@ const defaults = {
 	origin: '',
 	endpoint: 'https://www.funimation.com',
 	apiEndpoint: 'https://prod-api-funimationnow.dadcdigital.com/api',
-	icon: 'https://www.underconsideration.com/brandnew/archives/funimation_logo.png',
+	icon: 'https://sitejerk.com/images/funimation-logo-png-9.png',
 	categories: []
 }
 
