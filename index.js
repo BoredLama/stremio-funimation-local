@@ -246,7 +246,8 @@ async function retrieveRouter() {
 					        	const sub = getSubsUrl(m.mediaChildren)
 					        	if (!subtitles[args.id])
 					        		subtitles[args.id] = []
-					        	subtitles[args.id].push(sub)
+					        	if (sub)
+						        	subtitles[args.id].push(sub)
 					            files.push({
 					                id: m.id,
 					                language: m.language,
