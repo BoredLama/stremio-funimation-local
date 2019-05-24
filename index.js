@@ -17,7 +17,7 @@ const defaults = {
 	origin: '',
 	endpoint: 'https://www.funimation.com',
 	apiEndpoint: 'https://prod-api-funimationnow.dadcdigital.com/api',
-	icon: 'https://sitejerk.com/images/funimation-logo-png-9.png',
+	icon: 'https://www.underconsideration.com/brandnew/archives/funimation_logo.png',
 	categories: []
 }
 
@@ -167,7 +167,7 @@ function toMeta(obj) {
 function getSubsUrl(m){
     for (let i in m) {
         const fpp = m[i].filePath.split('.')
-        if (fpp[fpp.length-1] == 'srt') // dfxp, srt, vtt
+        if (fpp[fpp.length-1] == 'vtt') // dfxp, srt, vtt
             return { url: m[i].filePath, lang: ((m[i].languages || [])[0] || {}).title || 'English' }
     }
     return false
